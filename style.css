@@ -290,4 +290,48 @@ footer {
 }
 .older-articles {
   grid-area: old;
+  article {
+    border-bottom: solid 1px #b5b5b5;
+  }
+}
+
+.about-article {
+  justify-self: center;
+  max-width: 64rem;
+}
+
+.stats-card {
+  width: fit-content;
+  border-radius: 0.3rem;
+  background-color: #6d1c16;
+  img {
+    width: 15rem;
+  }
+  border: 1px solid #b5b5b5;
+  td,
+  th {
+    text-align: left;
+    padding: 8px;
+    background-color: #b5b5b5;
+    border: solid #b5b5b5;
+  }
+  td:hover {
+    background-color: #c5352c;
+  }
+}
+
+.price-graph {
+  width: 80%;
+}
+
+.ursus-knife-div {
+  display: grid;
+  justify-items: center;
+}
+
+.ursus-knife-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 67rem;
 }
